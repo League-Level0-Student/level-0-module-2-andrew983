@@ -5,12 +5,36 @@ package random;
 
 import java.util.Random;
 
+import javax.swing.JOptionPane;
+
 public class IntroToRandom {
 	public static void main(String[] args) {
+		Random gen = new Random();
 		
-		int r = 0;
-		
-		//3. Now make r random. 
+		int r = gen.nextInt(((88 + 222)+1)-222);
+JOptionPane.showMessageDialog(null, r +" years old");
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+//3. Now make r random. 
 		//   Create an object of the Random class
 		//	 use .nextInt() to get a random number
 		
@@ -25,5 +49,3 @@ public class IntroToRandom {
 		
 		//2. Run the program.  What number appears in the console?
 		//   Run it again. Is the number the same?
-	}
-}
