@@ -11,7 +11,7 @@ public class IntroToRandom {
 	public static void main(String[] args) {
 		Random gen = new Random();
 		
-		int r = gen.nextInt(((88 + 222)+1)-222);
+		int r = gen.nextInt(13000)+1;
 JOptionPane.showMessageDialog(null, r +" years old");
 			}
 

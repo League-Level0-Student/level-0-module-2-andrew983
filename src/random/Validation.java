@@ -27,3 +27,22 @@ public class Validation {
 		// 5. Find someone to test out your program. They will like it :)
 	}
 }
+
+
+
+
+
+/*
+4
+2
+3
+3
+3
+1
+0
+2
+4
+0
+
+
+*/
